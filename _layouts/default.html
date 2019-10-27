@@ -16,8 +16,9 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
+    <!-- Default sidebar -->
+    <div class="sidebar">
+      <div class="container sidebar-sticky">
         <header class="masthead clearfix">
           <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
@@ -37,8 +38,8 @@
     <div id="main" role="main" class="container">
       {{ content }}
     </div>
-
-    <div class="wrapper-footer">
+    <!-- Modified sidebar -->
+    <div class="sidebar">
       <div class="container">
         <footer class="footer">
           {% include svg-icons.html %}
